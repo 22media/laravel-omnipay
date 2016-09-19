@@ -1,7 +1,7 @@
 <?php namespace Ignited\LaravelOmnipay;
 
 use Illuminate\Support\ServiceProvider;
-use Omnipay\Common\GatewayFactory;
+use League\Omnipay\Common\GatewayFactory;
 
 abstract class BaseServiceProvider extends ServiceProvider {
 

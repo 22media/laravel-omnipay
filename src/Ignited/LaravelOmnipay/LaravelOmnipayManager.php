@@ -1,9 +1,9 @@
 <?php namespace Ignited\LaravelOmnipay;
 
 use Closure;
-use Omnipay\Common\GatewayFactory;
-use Omnipay\Common\Helper;
-use Omnipay\Common\CreditCard;
+use League\Omnipay\Common\GatewayFactory;
+use League\Omnipay\Common\Helper;
+use League\Omnipay\Common\CreditCard;
 
 class LaravelOmnipayManager {
     /**
