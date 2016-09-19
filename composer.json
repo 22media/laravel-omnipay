@@ -8,10 +8,16 @@
             "email": "alexwhiteside@ignitedlabs.com.au"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/22media/omnipay-braintree.git"
+        },
+    ],
     "require": {
         "php": ">=5.4.0",
         "illuminate/support": "~5",
-        "omnipay/common": "2.5.*"
+        "omnipay/omnipay": "3.0.x-dev@dev"
     },
     "autoload": {
         "psr-0": {
